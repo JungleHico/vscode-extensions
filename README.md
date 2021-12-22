@@ -82,3 +82,9 @@ ESLint 语法检查插件，该插件会检测和应用项目中的 .eslintrc.js
 
 ![img](./docs/images/bracket_pair_colorizer.png)
 
+### 12. Import Cost
+
+用于导入依赖时提示包的体积，方便后期优化。
+
+![img](./docs/images/import_cost.png)
+
