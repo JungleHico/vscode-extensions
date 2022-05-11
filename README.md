@@ -12,61 +12,67 @@
 
 该插件支持 html 标签成对修改。
 
-![img](./docs/images/auto_rename_tag.png)
+![auto_rename_tag](./docs/images/auto_rename_tag.png)
 
 ## 4. Code Spell Checker
 
 该插件用于检查单词拼写是否正确，避免变量名写错这种低级语法错误。
 
-![img](./docs/images/code_spell_checker_1.png)
+![code_spell_checker_1](./docs/images/code_spell_checker_1.png)
 
-![img](./docs/images/code_spell_checker_2.png)
+![code_spell_checker_2](./docs/images/code_spell_checker_2.png)
 
 ## 5. Git History
 
 该插件用于查看项目 Git 项目的提交日志，可以在代码控制面板中点击图标打开。
 
-![img](./docs/images/git_history.png)
+![git_history](./docs/images/git_history.png)
 
 ## 6. Bookmarks
 
 书签工具，在代码对应位置按 Ctrl+Alt+K 可以创建/移除书签，在左侧书签面板可以快速定位代码。
 
-![img](./docs/images/bookmarks.png)
+![bookmarks](./docs/images/bookmarks.png)
 
 ## 7. Markdown Preview Enhanced
 
 Markdown 文档预览工具，可以在右键菜单打开。
 
-![img](./docs/images/markdown_preview_enhanced.png)
+![markdown_preview_enhanced](./docs/images/markdown_preview_enhanced.png)
 
 ## 8. Vetur
 
 Vue 代码高亮和格式化插件。
 
-![img](./docs/images/vetur_1.png)
+![vetur_1](./docs/images/vetur_1.png)
 
-![img](./docs/images/vetur_2.png)
+![vetur_2](./docs/images/vetur_2.png)
 
-## 9. ESLint
+## 9. Volar
+
+Volar 是适用于 Vue 3 的语法高亮插件，为 Vue 3 和 TS 提供了更加友好的语法提示，安装前需要禁用 Vetur 插件并重启开发环境。
+
+![volar](./docs/images/volar.png)
+
+## 10. ESLint
 
 ESLint 语法检查插件，该插件会检测和应用项目中的 .eslintrc.js，并且对不符合规则的代码作出提示，还能对错误进行修改。
 
-![img](./docs/images/eslint_1.png)
+![eslint_1](./docs/images/eslint_1.png)
 
-![img](./docs/images/eslint_2.png)
+![eslint_2](./docs/images/eslint_2.png)
 
 如果需要在保存文件的时候自动根据规则修复，可以打开 settings.json 文件：File -> Preferences -> Settings -> Text Editor -> Code Actions On Save -> Edit in settings.json，添加：
 
 ```json
 {
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    }
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```
 
-## 10. Path Autocomplete
+## 11. Path Autocomplete
 
 路径提示插件，对于 Vue 项目，还可以配置路径别名相关的路径提示，打开 settings.json，添加以下代码：
 
@@ -76,15 +82,14 @@ ESLint 语法检查插件，该插件会检测和应用项目中的 .eslintrc.js
 }
 ```
 
-### 11. Bracket Pair Colorizer
+## 12. Bracket Pair Colorizer
 
 用于对成对括号高亮不同的颜色，以此区分。
 
-![img](./docs/images/bracket_pair_colorizer.png)
+![bracket_pair_colorizer](./docs/images/bracket_pair_colorizer.png)
 
-### 12. Import Cost
+## 13. Import Cost
 
 用于导入依赖时提示包的体积，方便后期优化。
 
-![img](./docs/images/import_cost.png)
-
+![import_cost](./docs/images/import_cost.png)
