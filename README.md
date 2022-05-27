@@ -72,7 +72,20 @@ ESLint 语法检查插件，该插件会检测和应用项目中的 .eslintrc.js
 }
 ```
 
-## 11. Path Autocomplete
+## 11. Prettier
+
+代码格式化插件，可以在插件设置中设置默认的格式化规则，例如是否使用双引号，是否使用分号等，还可以修改 `settings.json` 配置文件，将 Prettier 作为默认的格式化器，并且保存文件时自动启用：
+
+```json
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
+```
+
+![prettier](./docs/images/prettier.png)
+
+## 12. Path Autocomplete
 
 路径提示插件，对于 Vue 项目，还可以配置路径别名相关的路径提示，打开 settings.json，添加以下代码：
 
@@ -82,13 +95,13 @@ ESLint 语法检查插件，该插件会检测和应用项目中的 .eslintrc.js
 }
 ```
 
-## 12. Bracket Pair Colorizer
+## 13. Bracket Pair Colorizer
 
 用于对成对括号高亮不同的颜色，以此区分。
 
 ![bracket_pair_colorizer](./docs/images/bracket_pair_colorizer.png)
 
-## 13. Import Cost
+## 14. Import Cost
 
 用于导入依赖时提示包的体积，方便后期优化。
 
